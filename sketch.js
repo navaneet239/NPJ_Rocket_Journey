@@ -80,7 +80,7 @@ function draw() {
 
 
 
-    text("Press 'j' to play jump from the astroid or press 'e' to play escape from the astroid.", width/2 - 450   , bk.y/2 + 100, fill("white"),textSize(25))
+    text("Press 'j' to play jump from the asteroid or press 'e' to play escape from the asteroid.", width/2 - 450   , bk.y/2 + 100, fill("white"),textSize(25))
     
     if (keyWentDown("j")) {
       gameState = JUMP;
